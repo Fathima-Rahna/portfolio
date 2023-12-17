@@ -1,0 +1,329 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+}
+.navbar{
+    background-color:#14d0ca;
+}
+.navbar .navbar-brand{
+    color: azure;
+    font-size: 15px;
+    font-weight: 400;
+}
+.navbar .navbar-brand:hover{
+    transition: 0.5s;
+    color: aqua;
+
+}
+.navbar .navbar-nav .nav-item a{
+    color: antiquewhite;
+    font-size: 15px;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    transition: 0.5s;
+    color: aqua;
+}
+/*----------------------------------landing------------------*/
+.landing-sec{
+    padding-top: 150px;
+    /*padding-left: 50px;*/
+    padding-bottom: 100px;
+}
+.landing-sec h3 {
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .landing-sec h1 {
+    font-size: 92px;
+    font-weight: 700;
+    color: #fafafa;
+  }
+  .landing-sec h1 span{
+      color: aqua;
+  }
+  .landing-sec p {
+    color: #a1a1a1;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .landing-sec .btn {
+    background-image: linear-gradient(to right, #0d8cdc, #11b0ab);
+    color: #fafafa;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+
+/*--------------------ABOUT-----------------------*/
+.about{
+
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-left: 50px;   
+}
+.about h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.about h3{
+    font-size: 16px;
+  font-weight: 500;
+  color: aqua;
+  padding-top: 50px;
+
+}
+.about h2{
+    font-size: 26px;
+  color: #f9f9f9;
+  font-weight: 700;
+  padding-top: 5px;
+
+}
+.about p{
+    color: #f9f9f9;
+    font-size: 15px;
+    padding-top: 10px;
+    font-weight: 500;
+
+}
+.about table td{
+    color: #f9f9f9;
+    background-color: black;
+    font-size: 14px;
+  font-weight: 500;
+}
+.about table td span {
+    color: aqua;
+
+}
+.about img {
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+   border-radius:50%;
+    border: 10px solid aqua;
+    
+    
+    
+  }
+  .about .arrow{
+    background-color:rgba(0, 0, 0, 0.122);
+
+  }
+
+  /*---------------------------project---------------*/
+  .projectSec {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+  }
+  .projectSec .heading h1{
+    color:#f9f9f9;
+    font-size: 60px;
+    font-weight: 700;
+
+  }
+  .projectSec .content .card {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    margin-top: 40px;}
+    .projectSec  .card:hover{
+        transition: 0.5s;
+    box-shadow: 0 0 20px 0px ;
+    }
+  
+  .projectSec .content .card h5 {
+    color: #15d7c8;
+    font-size: 15px;
+  }
+  .projectSec .content .card h3 {
+    font-size: 24px;
+    color: #fafafa;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .projectSec .content .card p {
+    font-size: 16px;
+    color: #818181;
+    font-weight: 500;
+  }
+
+  .projectSec .content .card a{
+  color: #fafafa;
+  height: 50px;
+  width: 150px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #0d8cdc, #11b0ab);
+}
+.projectSec .content .card .btn1{
+    color:black;
+  height: 30px;
+  width: 70px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #15d7c8;
+  border: none;
+}
+.projectSec .content .card .btn2{
+    color:black;
+    height: 30px;
+    width: 90px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #15d7c8;
+    border: none;
+}
+
+/*-------------------------------contact------------------------*/
+.contact{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.contact h1{
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+}
+.contact .formSec form input {
+    color: #fafafa;
+    background-color: transparent;
+    height:50px ;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .contact .formSec form textarea{
+    height: 200px;
+    color: #fafafa;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  .contact .formSec form input::placeholder,
+  .contact .formSec form textarea::placeholder{
+    color:white ;
+  }
+  .contact .formSec form button {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, #0d8edc, #14d0ca);
+    font-weight: 600;
+  }
+
+
+  /*---------------------footer-----------------------------*/
+
+ 
+  .footer h1 {
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .footer i {
+    color: #a1a1a1;
+    font-size: 25px;
+   padding-left: 20px;
+   /* padding-right: 20px;*/
+  }
+  .footer i:hover {
+    color: #f9f9f9;
+  }
+  .footer p {
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+
+/*-------------------------------media queries--------------------*/
+@media (max-width: 992px) {
+    .navbar button {
+      border: none;
+    }
+    .navbar button:focus {
+      box-shadow: none;
+    }
+    .navbar button .navbar-toggler-icon{
+      font-size: 40px;
+      color: #fafafa;
+      outline: none;
+    }
+    .landing-sec h3 {
+      font-size: 18px;
+     /* padding-left: 40px;*/
+    }
+  
+    .landing-sec h1 {
+      font-size: 72px;
+      /*padding-left: 40px;*/
+    }
+  
+    .landing-sec p {
+      font-size: 15px;
+      /*padding-left: 40px;*/
+    }
+    /*.projectSec {
+        padding-right: 20px;
+      }*/
+   /* .landing-sec .btn{
+        padding-left: 50px;
+    }*/
+    .about {
+     margin:40px;
+      }
+}  
+@media (max-width: 489px) {
+    .landing-sec h3 {
+      font-size: 15px;
+    }
+  
+    .landing-sec h1 {
+      font-size: 42px;
+    }
+  
+    .landing-sec p {
+      font-size: 13px;
+    }
+  
+    .footer i {
+      font-size: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .about {
+      padding-top: 50px;
+      padding-bottom: 100px;
+      padding-left: 20px;
+    }
+    .about h3{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .about h2{
+    font-size: 20px;
+    font-weight: 300;
+    }
+    .about p{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .projectSec {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+    
+
+}
+
+  

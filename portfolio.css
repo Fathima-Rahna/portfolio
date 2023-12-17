@@ -277,7 +277,7 @@ body{
         padding-left: 50px;
     }*/
     .about {
-     margin:40px;
+     padding-left: 15px;
       }
 }  
 @media (max-width: 489px) {
@@ -304,7 +304,7 @@ body{
     .about {
       padding-top: 50px;
       padding-bottom: 100px;
-      padding-left: 20px;
+      padding-left: 15px;
     }
     .about h3{
         font-size: 15px;
@@ -320,7 +320,10 @@ body{
     }
     .projectSec {
         padding-top: 20px;
-        padding-left: 20px;
+        padding-left: 15px;
+      }
+      .projectSec .content .card .btn2{
+        width:90px;
       }
     
 

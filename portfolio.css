@@ -1,12 +1,12 @@
 body{
     font-family: "Montserrat", sans-serif;
     background-color: black;
-}
+}/*
 .navbar{
     background-color:#14d0ca;
 }
 .navbar .navbar-brand{
-    color: azure;
+    color:white;
     font-size: 15px;
     font-weight: 400;
 }
@@ -15,18 +15,47 @@ body{
     color: aqua;
 
 }
-.navbar .navbar-nav .nav-item a{
-    color: antiquewhite;
+.navbar .navbar-toggler{
+    color: aqua;
     font-size: 15px;
     font-weight: 400;
 }
 .navbar .navbar-nav .nav-item a:hover{
     transition: 0.5s;
-    color: aqua;
+    color: white;
+}*/
+
+/*--------------------------*/
+
+.navbar {
+  background-color: #111111;
+}
+
+.navbar .navbar-brand {
+  opacity: 0.8;
+  color: #14ceca;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navbar .navbar-brand:hover {
+  color:#f5f5f7 ;
+}
+
+.navbar .navbar-nav .nav-item a {
+  opacity: 0.8;
+  font-size: 13px;
+  color: #14ceca ;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+  color:#f5f5f7;
 }
 /*----------------------------------landing------------------*/
 .landing-sec{
-    padding-top: 150px;
+    padding-top: 230px;
     /*padding-left: 50px;*/
     padding-bottom: 100px;
 }
@@ -56,18 +85,26 @@ body{
     font-weight: 600;
     border-radius: 10px;
   }
-
+  .landing-sec .btn4 {
+    background-image: linear-gradient(to right, #0d8cdc, #11b0ab);
+    color: #fafafa;
+    height: 50px;
+    width: 150px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
 /*--------------------ABOUT-----------------------*/
 .about{
 
-    padding-top: 60px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     padding-left: 50px;   
 }
 .about h1{
     color: white;
     font-size: 60px;
     font-weight: 700;
+   
 
 }
 .about h3{
@@ -325,8 +362,15 @@ body{
       .projectSec .content .card .btn2{
         width:90px;
       }
-    
-
+      .contact{
+        padding-left: 15px;
+      }
+     /* .landing-sec .btn4{
+        margin-top: 60px;
+      }*/
+      .landing-sec {
+        margin-top: 30px;
+      }
 }
 
   
